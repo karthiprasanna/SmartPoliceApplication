@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_tabs"
+        android:orderInCategory="100"
+        android:title="Map List"
+        android:icon="@drawable/ic_refresh_white_24dp"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Map Layers">
+        <menu>
+            <item android:id="@+id/submenu3a"
+                android:title="Noraml" />
+            <item android:id="@+id/submenu3b"
+                android:title="Hybird" />
+            <item android:id="@+id/submenu3c"
+                android:title="Satellite" />
+            <item android:id="@+id/submenu3d"
+                android:title="Terrain" />
+            <item android:id="@+id/submenu3e"
+                android:title="None" />
+
+        </menu>
+
+
+
+
+    </item>
+
+
+
+
+
+
+
+
+
+</menu>

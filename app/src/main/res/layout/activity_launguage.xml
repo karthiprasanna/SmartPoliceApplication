@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+
+    >
+
+
+    <!-- Footer aligned to bottom -->
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="275dp"
+            android:layout_height="199dp"
+            android:layout_gravity="center"
+            android:src="@drawable/police_logo" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/pleaseselectlan"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dip"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="ದಯವಿಟ್ಟು ಭಾಷೆ ಆಯ್ಕೆ "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dip"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:visibility="gone"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" மொழியை தேர்வு செய்க "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dip"
+            android:layout_marginTop="15dp" />
+        <Button
+            android:id="@+id/english"
+            android:layout_width="268dp"
+            android:layout_height="60dp"
+            android:background="@color/colorPrimaryDark"
+            android:clickable="true"
+            android:onClick="english"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:text="@string/english1"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp" />
+
+
+        <Button
+            android:id="@+id/kannada"
+            android:layout_width="268dp"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:onClick="kannada"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/kannada1"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,194 @@
+<resources>
+    <string name="app_name">Smart Police</string>
+    <string name="androidgpstracking">Locator</string>
+
+    <string name="custom_title">Select Images</string>
+
+    <string name="policeid">User Name</string>
+    <string name="password">Password</string>
+
+
+    <string name="takephotos">Take Photos *</string>
+    <string name="submit">Submit Information</string>
+
+
+    <string name="tittle">Enter the Details below</string>
+    <string name="dashtittle">Welcome to Control Room</string>
+
+    <string name="cctvpresent">CCTV Present</string>
+    <string name="tamil">தமிழ்</string>
+    <string name="cctvworking">CCTV Working</string>
+    <string name="securitypresent">Security Present</string>
+    <string name="atmworking">ATM Working</string>
+    <string name="checked">Checked * </string>
+    <string name="punished">Punished</string>
+    <string name="entrollmentregisterpresent">Enrolment Register Present</string>
+    <string name="documentsofpg">Documents of all PG\'s verified</string>
+    <string name="mobpresent">Mob Present</string>
+    <string name="badcharacterpresent">Bad Character Present</string>
+    <string name="rowdypresent">Rowdy Present</string>
+    <string name="logout">Logout</string>
+    <string name="english">English</string>
+    <string name="english1">English</string>
+    <string name="kannada">Kannada</string>
+    <string name="kannada1">ಕನ್ನಡ</string>
+    <string name="atm">ATM</string>
+    <string name="badcharacter">Bad Character</string>
+    <string name="bank">Bank</string>
+    <string name="bolo">Bolo</string>
+    <string name="religiousplace">Religious Place</string>
+    <string name="locator">Locator</string>
+    <string name="mob">Mob</string>
+    <string name="checkpoint">Check point</string>
+    <string name="petrolbunk">Petrol Bunk</string>
+    <string name="payingguest">Paying Guest</string>
+    <string name="slumareavisit">Slum Area Visit</string>
+    <string name="stolenproperty">Stolen Property</string>
+    <string name="warrantandnotice">Warrant and Notice</string>
+    <string name="wineshopandbar">Wine Shop and Bar</string>
+    <string name="sos">SOS</string>
+    <string name="complaint">Complaint</string>
+    <string name="griditem">Grid View Item</string>
+    <string name="pleaseselectlan">Please select your Language</string>
+
+
+    <string name="chase">Chase</string>
+    <string name="attack">Attack</string>
+    <string name="gang">Gang</string>
+    <string name="sostitle">Click on the type of Emergency</string>
+    <!-- <string name="atm">ATM</string>
+     <string name="atm">ATM</string>
+ -->
+
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyCv1xpaeY3HAQx0kk6sX9CRYGeUx1s_uvQ
+    </string>
+
+
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string-array name="my_books">
+        <item>Profile</item>
+        <item>Complaint </item>
+        <item>Home</item>
+        <item>Help</item>
+        <item>Message</item>
+
+    </string-array>
+    <string name="areyou">Are You Sure you Want to Exit?</string>
+    <string name="ok">Ok</string>
+    <string name="close">Cancel</string>
+
+
+    <string name="formtype">Mob Type *</string>
+    <string name="name">Name *</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="details">Details *</string>
+    <string name="familyname">Family Name</string>
+    <string name="Neighbourname">Neighbour Name</string>
+    <string name="employername">Employer Name</string>
+    <string name="employeraddress">Employer Address</string>
+    <string name="advocatename">Advocate Name</string>
+    <string name="advocatenumber">Advocate Number</string>
+    <string name="numberofcases">Number of cases</string>
+    <string name="neighbournumber">Neighbour Number</string>
+    <string name="gangname">Gang Name</string>
+    <string name="previousincident">Previous Incidents</string>
+    <string name="alibiname">Alibi Name</string>
+    <string name="economicalcondition">Economical Condition</string>
+    <string name="miscinformation">Misc Information</string>
+    <string name="vehicle">Vehicle Type</string>
+    <string name="registrationnumber">Registration Number *</string>
+    <string name="drivername">Driver Name</string>
+    <string name="journeyfrom">Journey From</string>.
+    <string name="journeyto">Journey to</string>
+    <string name="numberofpassesngers">Number of Passenger</string>
+    <string name="complainttype">Complaint Type *</string>
+    <string name="complaintstatus">Complaint Status *</string>
+    <string name="helptitle">Police Station in Mangalore</string>
+    <string name="policestation">Police Station</string>
+    <string name="bunder">Bunder</string>
+    <string name="mangalore">Mangalore-575001</string>
+    <string name="phno">0824-22205516</string>
+    <string name="kadri">Kadri</string>
+
+
+    <string name="username">User Name</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="email">Email</string>
+    <string name="gender">Gender</string>
+    <string name="mobileNo">Mobile No</string>
+    <string name="DisName">District Name</string>
+    <string name="DivisionName">Division Name</string>
+    <string name="SubDivisionName">Sub Division Name</string>
+    <string name="Gallery">Gallery</string>
+
+
+    <string name="NoAtmSelected">Atm need to be selected.</string>
+    <string name="LocationNotEnabled">Unable to fetch location please wait.</string>
+    <string name="ImagesNotSelected">Images need to be selected before submitting.</string>
+    <string name="CheckNotSelected">Check button need to be selected before submitting.</string>
+
+
+    <string name="BAD_HAPPENED">Sorry, we are unable to process your request right now. Please try again later.</string>
+    <string name="NO_NETWORK">No internet connection</string>
+    <string name="SERVER_ERROR">Seems like our server is not behaving</string>
+    <string name="NETWORK_TIMEOUT">Sorry! network timed out</string>
+    <string name="NETWORK_ERROR">Network error!</string>
+    <string name="GetDetails">Fetching details...</string>
+    <string name="uploadImage">Uploading Images</string>
+    <string name="pleasewait">Please wait...</string>
+    <string name="imageUploadFail">Image upload failed</string>
+    <string name="uploadingDetails">Uploading Details</string>
+    <string name="successMessage">Details uploaded successfully</string>
+    <string name="failMessage">Failed uploading details</string>
+    <string name="GPSSettings">GPS Settings</string>
+    <string name="GPSString">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="Settings">Settings</string>
+
+    <string name="errorMessage">Error uploading details..</string>
+    <string name="NoBankSelected">Bank need to be selected.</string>
+    <string name="NoMobSelected">Mob Type need to be selected.</string>
+    <string name="NoPBSelected">Petrol bunk need to be selected.</string>
+    <string name="NoPGSelected">PG need to be selected.</string>
+    <string name="NoReligousSelected">Religious need to be selected.</string>
+    <string name="NoSlumSelected">Slum Area need to be selected.</string>
+    <string name="NameNotSelected">Name should not be empty</string>
+    <string name="RegNoNotSelected">Registration number need to be selected.</string>
+    <string name="WineShopNotSelected">Wine Shop need to be selected.</string>
+    <string name="MinImageSelection">Please select at least one image</string>
+    <string name="MandatoryNotSelected">Please select mandatory fields</string>
+    <string name="noNotification">No Notifications available</string>
+
+    <string name="userNamePasswordRequires">Enter username and password</string>
+    <string name="stolenPhone">Phone *</string>
+    <string name="Inactive">Inactive User</string>
+    <string name="Invalid">Invalid User</string>
+    <string name="AlreadyAssigned">This device is already assigned to another user.</string>
+    <string name="NoPermission">You do not have permission to login from mobile.</string>
+    <string name="LoginSuccess">Login is Successful</string>
+    <string name="LogoutSuccess">Logout Successful</string>
+    <string name="LanguageEnglish">Language changed to English Successfully</string>
+    <string name="LanguageKannada">Language changed to Kannada Successfully</string>
+    <string name="ExitMsg">Do you want to exit app?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="sendReq">Sending request</string>
+    <string name="sosSuccess">SOS send successfully</string>
+    <string name="sosError">Error while sending sos request</string>
+    <string name="InvalidPhoneNo">Phone number invalid</string>
+    <string name="policeStationName">Police Station Name</string>
+    <string name="selectName">Select Name</string>
+    <string name="noDetailsAvailable">No details available under this police station</string>
+    <string name="fetchingLocation">Fetching your location please wait...</string>
+    <string name="Verification">Verifying your credentials</string>
+    <string name="takePhoto">Take Photo</string>
+    <string name="chooseFromGallery">"Choose from Gallery"</string>
+    <string name="imageUploadSuccess">"Image Uploaded successfully"</string>
+
+
+</resources>

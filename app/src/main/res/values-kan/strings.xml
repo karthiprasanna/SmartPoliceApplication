@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Smart Police</string>
+    <string name="androidgpstracking">ಆಂಡ್ರಾಯ್ಡ್ ಜಿಪಿಎಸ್ ಟ್ರ್ಯಾಕಿಂಗ್</string>
+        <string name="dashtittle">ಕೊಠಡಿ ನಿಯಂತ್ರಣ ಸ್ವಾಗತ
+</string>
+    <string name="policeid">ಪೊಲೀಸ್ ಐಡಿ</string>
+    <string name="password">ಪಾಸ್ವರ್ಡ್</string>
+
+    <string name="takephotos">ಚಿತ್ರಗಳನ್ನು ತೆಗೆ</string>
+    <string name="submit">ಮಾಹಿತಿ ಸಲ್ಲಿಸಿ</string>
+    <string name="tittle">ಕೆಳಗಿನ ವಿವರಗಳನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="cctvpresent">ಸಿಸಿಟಿವಿ ಪ್ರೆಸೆಂಟ್</string>
+    <string name="tamil">தமிழ்</string>
+    <string name="cctvworking">ಸಿಸಿಟಿವಿ ಕೆಲಸ</string>
+    <string name="securitypresent">ಭದ್ರತಾ ಪ್ರೆಸೆಂಟ್</string>
+    <string name="atmworking">ಎಟಿಎಂ ಕೆಲಸ</string>
+    <string name="checked">ಪರಿಶೀಲಿಸಲ್ಪಟ್ಟ</string>
+    <string name="punished">ಶಿಕ್ಷೆ</string>
+    <string name="entrollmentregisterpresent">ಎಂಟ್ರೋಲ್ಮೆಂಟ್ ರಿಜಿಸ್ಟರ್ ಪ್ರೆಸೆಂಟ್ </string>
+    <string name="documentsofpg">ಎಲ್ಲಾ ಬಾಡಿಗೆ ಅತಿಥಿ ನ ದಾಖಲೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿದ</string>
+    <string name="mobpresent">ಮಾಬ್ ಪ್ರೆಸೆಂಟ್</string>
+    <string name="badcharacterpresent">ಕೆಟ್ಟ ಅಕ್ಷರ ಪ್ರೆಸೆಂಟ್</string>
+    <string name="rowdypresent">ರೌಡಿ ಪ್ರೆಸೆಂಟ್</string>
+
+    <string name="logout">ಲಾಗ್ ಔಟ್</string>
+    <string name="english">ಇಂಗ್ಲೀಷ್</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="kannada1">ಕನ್ನಡ</string>
+    <string name="atm">ಎಟಿಎಂ</string>
+    <string name="badcharacter">ಕೆಟ್ಟ ಅಕ್ಷರ</string>
+    <string name="bank">ಬ್ಯಾಂಕ್</string>
+    <string name="bolo">ವಾಸ್</string>
+    <string name="religiousplace">ಧಾರ್ಮಿಕ ಕೇಂದ್ರ</string>
+    <string name="locator">ಲೊಕೇಟರ್</string>
+    <string name="mob">ಮಾಬ್</string>
+    <string name="checkpoint">ಚೆಕ್ಪಾಯಿಂಟ್</string>
+    <string name="petrolbunk">ಪೆಟ್ರೋಲ್ ಬಂಕ್</string>
+    <string name="payingguest">ಪೇಯಿಂಗ್ ಗೆಸ್ಟ್</string>
+    <string name="slumareavisit">ಕೊಳೆಗೇರಿ ಪ್ರದೇಶಕ್ಕೆ ಭೇಟಿ</string>
+    <string name="stolenproperty">ಸ್ಟೋಲನ್ ಆಸ್ತಿ</string>
+    <string name="warrantandnotice">ವಾರಂಟ್ ಮತ್ತು ಎಚ್ಚರಿಕೆ</string>
+    <string name="wineshopandbar">ವೈನ್ ಶಾಪ್ ಮತ್ತು ಬಾರ್</string>
+    <string name="sos">ಒಂದು</string>
+    <string name="complaint">ದೂರು</string>
+    <string name="griditem">Grid View Item</string>
+    <string name="pleaseselectlan">Please Select Your Language</string>
+    <!--
+
+        <string name="atm">Grid View Item</string>
+        <string name="atm">ATM</string>
+        <string name="atm">ATM</string>
+        <string name="atm">ATM</string>
+        <string name="atm">ATM</string>
+        <string name="atm">ATM</string>
+        <string name="atm">ATM</string>
+
+    -->
+
+
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyCv1xpaeY3HAQx0kk6sX9CRYGeUx1s_uvQ
+    </string>
+
+
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string-array name="my_books">
+        <item>ಪ್ರೊಫೈಲ್</item>
+        <item>ದೂರು</item>
+        <item>ಮನೆ</item>
+        <item>ಸಹಾಯ</item>
+        <item>ಸಂದೇಶ</item>
+
+    </string-array>
+
+
+    <string name="areyou">ನೀನು ನಿಜವಾಗಲೂ ಹೊರಗೆ ಹೂಗಬಯಸುತ್ತೀಯಾ?</string>
+    <string name="ok">ಸರಿ</string>
+    <string name="close">ರದ್ದು</string>
+
+
+
+
+
+
+
+    <string name="formtype">ಮಾಬ್ ಕೌಟುಂಬಿಕತೆ</string>
+    <string name="name">ಹೆಸರು</string>
+    <string name="address">ವಿಳಾಸ</string>
+    <string name="phone">ದೂರವಾಣಿ</string>
+    <string name="details">ವಿವರಗಳು</string>
+    <string name="familyname">ಕುಟುಂಬ ಹೆಸರು</string>
+    <string name="Neighbourname">ನೈಬರ್ ಹೆಸರು</string>
+    <string name="employername">ಉದ್ಯೋಗದಾತನ ಹೆಸರು</string>
+    <string name="employeraddress">ಉದ್ಯೋಗದಾತ ವಿಳಾಸ</string>
+    <string name="advocatename">ಅಡ್ವೊಕೇಟ್ ಹೆಸರು</string>
+    <string name="advocatenumber">ಅಡ್ವೊಕೇಟ್ ಸಂಖ್ಯೆ</string>
+    <string name="numberofcases">ಸಂಖ್ಯೆ ಪ್ರಕರಣಗಳು</string>
+    <string name="neighbournumber">ನೈಬರ್ ಸಂಖ್ಯೆ</string>
+    <string name="gangname">ಗ್ಯಾಂಗ್ ಹೆಸರು</string>
+    <string name="previousincident">ಹಿಂದಿನ ಘಟನೆಗಳ</string>
+    <string name="alibiname">ಬೇರೆಕಡೆ ಹೆಸರು</string>
+    <string name="economicalcondition">ಆರ್ಥಿಕ ಪರಿಸ್ಥಿತಿ</string>
+    <string name="miscinformation">ಇತರೆ ಮಾಹಿತಿ</string>
+    <string name="vehicle">ವಾಹನ ಕೌಟುಂಬಿಕತೆ</string>
+    <string name="registrationnumber">ನೋಂದಣಿ ಸಂಖ್ಯೆ</string>
+    <string name="drivername">ಚಾಲಕ ಹೆಸರು</string>
+    <string name="journeyfrom">ಗೆ ಜರ್ನಿ</string>.
+    <string name="journeyto">ಪ್ರಯಾಣ</string>
+    <string name="numberofpassesngers">ಪ್ಯಾಸೆಂಜರ್ ಸಂಖ್ಯೆ</string>
+    <string name="complainttype">ದೂರು ಕೌಟುಂಬಿಕತೆ</string>
+    <string name="complaintstatus">ದೂರು ಸ್ಥಿತಿ</string>
+
+    <string name="chase">ಚೇಸ್</string>
+    <string name="attack">ಅಟ್ಯಾಕ್</string>
+    <string name="gang">ಗ್ಯಾಂಗ್</string>
+    <string name="sostitle">ತುರ್ತು ವಿಧದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ</string>
+
+
+
+
+
+
+
+
+
+    <string name="helptitle">ಮಂಗಳೂರು ಪೊಲೀಸ್ ಠಾಣೆ</string>
+    <string name="policestation">ಆರಕ್ಷಕ ಠಾಣೆ</string>
+    <string name="bunder">ಬಂದರ್</string>
+    <string name="mangalore">ಮಂಗಳೂರು- 575001</string>
+    <string name="phno">0824-22205516</string>
+    <string name="kadri">ಕದ್ರಿ</string>
+
+
+
+    <string name="username">ಬಳಕೆದಾರ ಹೆಸರು</string>
+    <string name="email">ಇಮೇಲ್</string>
+    <string name="gender">ಲಿಂಗ</string>
+
+
+</resources>

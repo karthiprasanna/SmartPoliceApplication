@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FED12D"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+
+
+    <RelativeLayout
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FED12D"
+        >
+
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:gravity="center_horizontal"
+            android:textColor="#996B27"
+            android:text="@string/helptitle"
+            />
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/l1"
+        android:padding="10dp"
+        >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/android_card_view_example1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:elevation="4dp"
+                android:padding="5dp">
+
+               <TextView
+                   android:id="@+id/c1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="10dp"
+                   android:text="@string/policestation"
+                   android:paddingLeft="10dp"
+                 android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_below="@+id/c1"
+                    android:id="@+id/c2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bunder"
+                    android:paddingLeft="10dp"
+                    android:padding="10dp"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_below="@+id/c3"
+                    android:id="@+id/c4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phno"
+                    android:paddingLeft="10dp"
+                    android:padding="10dp"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/c3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mangalore"
+                    android:paddingLeft="10dp"
+                    android:padding="10dp"
+                    android:textSize="18dp"
+                    android:layout_below="@+id/c2"
+                     />
+
+            </RelativeLayout>
+
+          </android.support.v7.widget.CardView>
+
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/android_card_view_example2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:elevation="4dp"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/d1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/policestation"
+                    android:paddingLeft="10dp"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:layout_below="@+id/d1"
+                    android:id="@+id/d2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kadri"
+                    android:paddingLeft="10dp"
+                    android:padding="10dp"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:layout_below="@+id/d2"
+                    android:id="@+id/d3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/mangalore"
+                    android:paddingLeft="10dp"
+                    android:padding="10dp"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:layout_below="@+id/d3"
+                    android:id="@+id/d4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phno"
+                    android:paddingLeft="10dp"
+                    android:padding="10dp"
+                    android:textSize="18dp"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+       </ScrollView>
+    </LinearLayout>

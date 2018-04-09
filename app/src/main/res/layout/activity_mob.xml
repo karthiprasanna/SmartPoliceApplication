@@ -1,0 +1,848 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/my_action_bar"
+        layout="@layout/toolbar"></include>
+    <RelativeLayout
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FED12D"
+        >
+
+        <TextView
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:gravity="center_horizontal"
+            android:textColor="#996B27"
+            android:text="@string/tittle"
+            />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:background="#FED12D"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fillViewport="true"
+            android:scrollbars="none" >
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                >
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <RelativeLayout
+                        android:id="@+id/cname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+                        <android.support.design.widget.TextInputLayout
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <AutoCompleteTextView
+                                android:ems="10"
+                                android:id="@+id/mobType"
+                                android:textSize="18sp"
+                                android:paddingTop="10dp"
+                                android:inputType="text"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:completionThreshold="1"
+                                android:hint="@string/formtype" />
+
+
+                        </android.support.design.widget.TextInputLayout>
+
+
+
+                    </RelativeLayout>
+
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:id="@+id/name"
+                                android:ems="3"
+                                android:textSize="18sp"
+                                android:paddingTop="10dp"
+                                android:inputType="textPersonName"
+                                android:maxLines="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/name" />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:ems="10"
+                                android:id="@+id/address"
+                                android:textSize="18sp"
+                                android:paddingTop="10dp"
+                                android:maxLines="1"
+                                android:inputType="text"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/address"  />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:ems="10"
+                                android:id="@+id/phoneNo"
+                                android:textSize="18sp"
+                                android:paddingTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="number"
+                                android:maxLength="12"
+                                android:maxLines="1"
+                                android:hint="@string/phone"  />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:ems="10"
+                                android:id="@+id/familyName"
+                                android:textSize="18sp"
+                                android:paddingTop="10dp"
+                                android:inputType="textPersonName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:hint="@string/familyname" />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:ems="10"
+                                android:id="@+id/neighbourName"
+                                android:textSize="18sp"
+                                android:inputType="textPersonName"
+                                android:paddingTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:hint="@string/Neighbourname"  />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:ems="10"
+                                android:id="@+id/neighbourNumber"
+                                android:textSize="18sp"
+                                android:paddingTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="number"
+                                android:maxLength="12"
+                                android:maxLines="1"
+                                android:hint="@string/neighbournumber" />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:ems="10"
+                                android:id="@+id/employerName"
+                                android:textSize="18sp"
+                                android:paddingTop="10dp"
+                                android:layout_width="match_parent"
+                                android:maxLines="1"
+                                android:inputType="textPersonName"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/employername" />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:ems="10"
+                                android:id="@+id/employerAddress"
+                                android:textSize="18sp"
+                                android:paddingTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:hint="@string/employeraddress" />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:ems="10"
+                                android:id="@+id/advocateName"
+                                android:textSize="18sp"
+                                android:paddingTop="10dp"
+                                android:inputType="textPersonName"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:hint="@string/advocatename"  />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:ems="10"
+                                android:id="@+id/advocateNumber"
+                                android:textSize="18sp"
+                                android:paddingTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="number"
+                                android:maxLength="12"
+                                android:maxLines="1"
+                                android:hint="@string/advocatenumber"  />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:ems="10"
+                                android:id="@+id/numOfCase"
+                                android:textSize="18sp"
+                                android:paddingTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:inputType="number"
+                                android:maxLines="1"
+                                android:hint="@string/numberofcases" />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+
+
+
+                        <LinearLayout
+
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/linearLayout2"
+                            android:padding="5dp"
+                            android:gravity="center">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/punished"
+                                android:textSize="18sp"
+                                android:padding="5dp" />
+
+                            <android.support.v7.widget.SwitchCompat
+                                android:id="@+id/punishedSwitch"
+                                android:theme="@style/BrandedSwitch"
+                                android:paddingRight="5dp"
+                                android:layout_width="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:checked="false"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                />
+                        </LinearLayout>
+
+
+
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:ems="10"
+                                android:id="@+id/gangName"
+                                android:textSize="18sp"
+                                android:paddingTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:inputType="textPersonName"
+                                android:hint="@string/gangname" />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:ems="10"
+                                android:id="@+id/previousIncident"
+                                android:textSize="18sp"
+                                android:paddingTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:inputType="text"
+                                android:hint="@string/previousincident" />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:ems="10"
+                                android:id="@+id/alibiName"
+                                android:textSize="18sp"
+                                android:paddingTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:inputType="textPersonName"
+                                android:hint="@string/alibiname"  />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:ems="10"
+                                android:id="@+id/economicCondition"
+                                android:textSize="18sp"
+                                android:paddingTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:inputType="text"
+                                android:hint="@string/economicalcondition"  />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+                        <android.support.design.widget.TextInputLayout
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:ems="10"
+                                android:id="@+id/miscInfo"
+                                android:textSize="18sp"
+                                android:paddingTop="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:maxLines="1"
+                                android:inputType="text"
+                                android:hint="@string/miscinformation" />
+                        </android.support.design.widget.TextInputLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_example6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#fff"
+                        android:elevation="4dp"
+                        android:padding="5dp">
+
+
+
+
+                        <LinearLayout
+
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/linearLayout5"
+                            android:padding="5dp"
+                            android:gravity="center">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/checked"
+                                android:textSize="16sp"
+                                android:padding="5dp" />
+
+                            <android.support.v7.widget.SwitchCompat
+                                android:id="@+id/checkedSwitch"
+                                android:theme="@style/BrandedSwitch"
+                                android:paddingRight="5dp"
+                                android:layout_width="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:checked="false"
+                                android:layout_height="wrap_content"
+                                android:textAppearance="?android:attr/textAppearanceMedium"
+                                />
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/android_card_view_exampl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <Button
+                            android:id="@+id/takephoto"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/rounded_corner"
+                            android:drawablePadding="60dp"
+                            android:drawableRight="@drawable/camera"
+                            android:paddingRight="20dp"
+                            android:paddingLeft="60dp"
+                            android:text="@string/takephotos"
+                            android:textSize="16sp" />
+
+                        <HorizontalScrollView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:id="@+id/lnrImages"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:visibility="gone"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="10dp">
+
+                                <ImageView
+                                    android:id="@+id/img1"
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:scaleType="centerCrop"
+                                    android:adjustViewBounds="true"
+                                    android:visibility="gone"
+                                    />
+                                <ImageView
+                                    android:id="@+id/img2"
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:scaleType="centerCrop"
+                                    android:adjustViewBounds="true"
+                                    android:visibility="gone"
+                                    />
+
+                                <ImageView
+                                    android:id="@+id/img3"
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:scaleType="centerCrop"
+                                    android:adjustViewBounds="true"
+                                    android:visibility="gone"
+                                    />
+
+                                <ImageView
+                                    android:id="@+id/img4"
+                                    android:layout_width="70dp"
+                                    android:layout_height="70dp"
+                                    android:scaleType="centerCrop"
+                                    android:adjustViewBounds="true"
+                                    android:visibility="gone"
+                                    />
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+                        <Button
+                            android:id="@+id/submitinfo"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/rounded_corner"
+                            android:drawablePadding="25dp"
+                            android:drawableRight="@drawable/submit"
+                            android:paddingRight="20dp"
+                            android:paddingLeft="35dp"
+                            android:text="@string/submit"
+                            android:textAlignment="center"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+
+
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
